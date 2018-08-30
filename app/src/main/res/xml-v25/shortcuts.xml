@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="screen1"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/label_short_screen1"
+        android:shortcutLongLabel="@string/label_long_screen1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.itsteps.altair.myapplicationcut"
+            android:targetClass="com.itsteps.altair.myapplicationcut.Screen1Activity" />
+
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="screen2"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/label_short_screen2"
+        android:shortcutLongLabel="@string/label_long_screen2">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.itsteps.altair.myapplicationcut"
+            android:targetClass="com.itsteps.altair.myapplicationcut.Screen2Activity" />
+
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

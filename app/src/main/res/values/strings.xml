@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My ApplicationCut</string>
+    <string name="screen_1">Screen 1</string>
+    <string name="screen_2">Screen 2</string>
+    <string name="label_short_screen1" >Screen1</string>
+    <string name="label_long_screen1" >Screen1</string>
+    <string name="label_short_screen2">Screen2</string>
+    <string name="label_long_screen2">Screen2</string>
+    <string name="screen2">Screen2</string>
+    <string name="screen1">screen1</string>
+
+</resources>
